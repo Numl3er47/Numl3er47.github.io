@@ -4,5 +4,5 @@
 * Name : Pongpat Petchai
 * My Home : Prachachuen
 * My work place : Changwatthana
-* Line name : Nui | Pongpat
+* Line name : Nui \| Pongpat
 
