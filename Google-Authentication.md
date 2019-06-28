@@ -6,7 +6,7 @@
 1. เปิด Web browser แล้ว เข้าไปที่ Gmail.com จากนั้นคลิ๊กที่ปุ่ม “Create an account” เพื่อทำการสมัคร gmail
 ![pic1](/Pictures/Google-Auth/1.png)
 2. จากนั้นกรอกข้อมูลสำหรับการสมัครลงไปในแบบฟอร์มที่กำหนดไว้ แล้วกดที่ปุ่ม Next
-![pic1](/Pictures/Google-Auth/2.png) ![pic1](/Pictures/Google-Auth/3.png)
+![pic1](/Pictures/Google-Auth/2.png)
 3. ขั้นตอนสุดท้ายจะมีขั้นตกลงในการใช้งานให้เราอ่าน เมื่ออ่านเสร็จแล้วให้กดที่ปุ่ม I agree เพื่อเปิดใช้งาน gmail
 ![pic1](/Pictures/Google-Auth/4.png) 
 4. ทำการ login เข้าสู่ระบบ gmail โดยใช้ username และ password ที่ได้กำหนดไว้ในตอนสมัคร
@@ -32,5 +32,24 @@
 7. ขั้นตอนสุดท้าย คลิกปุ่ม "TERN ON"  แค่นี้บัญชีเราก็เปิดการตรวจสอบ 2 ขั้นตอน เรียบร้อยแล้ว
 ![pic2](/Pictures/Google-Auth/2-step-6.png)
 
-
 แต่ผลกระทบหลังจากที่ได้เปิดการตรวจสอบ 2 ขั้นตอน คือแอพที่ทำการ sign in ด้วย บัญชี google ของเรา จะไม่สามารถใช้งานได้ทันที หรืออาจใช้ไม่ได้เลยก็มี เราจะต้องสร้างและป้อนรหัสเฉพาะแอพ ซึ่งป้อนเพียงครั้งเดียวก็จะสามารถใช้งานแอพได้ตามปกติ
+
+
+## Google Authenticator และการใช้งานกับ gmail
+ในกรณีหากคุณตั้งค่าการยืนยันเปิดการตรวจสอบ 2 ขั้นตอนไว้แล้ว โดยรับข้อความ SMS หรือการโทร แต่ต้องการสร้างรหัสโดยใช้ Android หรือ iPhone คุณสามารถใช้แอพพลิเคชัน Google Authenticator ในการดูและใส่รหัสลงหน้าเว็บไซต์ เพื่อเข้าสู่ระบบได้  แม้คุณจะไม่มีการเชื่อมต่ออินเทอร์เน็ตหรือบริการมือถือก็ตาม มาดูกันว่าวิธีการใช้งาน Google Autenticator นั้นทำอย่างไรบ้าง
+
+1. ทำการดาวน์โหลดและติดตั้งแอพ  Google Authenticator ฟรี ผ่านทาง Play Store สำหรับ Android , App Store  สำหรับ iPhone , iPod Touch และ iPad
+![pic2](/Pictures/Google-Auth/Phone-11.jpg)
+2. เมื่อติดตั้งเสร็จแล้ว ให้ทำการเปิดแอพ Google Authenticator นี้ และกดที่ปุ่ม "+" ทางด้านล่างมุมซ้ายของจอ
+![pic2](/Pictures/Google-Auth/Phone-3.jpg)
+3. สามารถเลือกการเพิ่มข้อมูลโดยผ่าน barcode หรือในรูปแบบของ key
+![pic2](/Pictures/Google-Auth/Phone-4.jpg)
+4. ในการใช้งานร่วมกับ gmail นั้น ในส่วนของ gmail จะต้องเข้าไปที่แท็บ "security" แล้วเลือกเมนู "2-Step Verification" แล้วเลือกที่ "Authenticator app" 
+![pic2](/Pictures/Google-Auth/2-step-7.png)
+5. คลิ๊กที่ปุ่ม "SET UP" เพื่อตั้งค่า gmail กับแอพลิเคชั่นบนมือถือ ซึ่งจะแสดงหน้าต่างให้เลือกระบบปฏิบัติการของมือถือที่ต้องการจะเชื่อมต่อ แล้วจึงกดปุ่ม "Next" แล้วจะแสดง barcode ให้เราทำการสแกน
+![pic2](/Pictures/Google-Auth/2-step-18.png)
+6. นำแอพ Google Authenticator ในขั้นตอนที่ 2 ทำการสแกน barcode ที่ได้รับ แล้วจะปรากฏหน้าต่างให้ใส่ code จำนวน 6 หลัก ที่ได้จากมือถือ แล้วกดปุ่ม "Verify"
+![pic2](/Pictures/Google-Auth/2-step-12.png)
+7. ถ้าหาก code ที่ได้ถูกต้อง จะปรากฏหน้าต่าง "Done!" ซึ่งเป็นการติดตั้งที่เสร็จเรียบร้อยแล้ว
+![pic2](/Pictures/Google-Auth/2-step-13.png)
+
