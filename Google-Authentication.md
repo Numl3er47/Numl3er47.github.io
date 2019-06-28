@@ -50,6 +50,7 @@
 
 ![pic2](/Pictures/Google-Auth/Phone-4.jpg)
 4. ในการใช้งานร่วมกับ gmail นั้น ในส่วนของ gmail จะต้องเข้าไปที่แท็บ "security" แล้วเลือกเมนู "2-Step Verification" แล้วเลือกที่ "Authenticator app" 
+
 ![pic2](/Pictures/Google-Auth/2-step-7.png)
 5. คลิ๊กที่ปุ่ม "SET UP" เพื่อตั้งค่า gmail กับแอพลิเคชั่นบนมือถือ ซึ่งจะแสดงหน้าต่างให้เลือกระบบปฏิบัติการของมือถือที่ต้องการจะเชื่อมต่อ แล้วจึงกดปุ่ม "Next" แล้วจะแสดง barcode ให้เราทำการสแกน
 ![pic2](/Pictures/Google-Auth/2-step-18.png)
