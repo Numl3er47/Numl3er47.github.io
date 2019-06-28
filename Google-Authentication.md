@@ -38,7 +38,7 @@
 ## Google Authenticator และการใช้งานกับ gmail
 ในกรณีหากคุณตั้งค่าการยืนยันเปิดการตรวจสอบ 2 ขั้นตอนไว้แล้ว โดยรับข้อความ SMS หรือการโทร แต่ต้องการสร้างรหัสโดยใช้ Android หรือ iPhone คุณสามารถใช้แอพพลิเคชัน Google Authenticator ในการดูและใส่รหัสลงหน้าเว็บไซต์ เพื่อเข้าสู่ระบบได้  แม้คุณจะไม่มีการเชื่อมต่ออินเทอร์เน็ตหรือบริการมือถือก็ตาม มาดูกันว่าวิธีการใช้งาน Google Autenticator นั้นทำอย่างไรบ้าง
 
-1. ทำการดาวน์โหลดและติดตั้งแอพ  Google Authenticator ฟรี ผ่านทาง Play Store สำหรับ Android , App Store  สำหรับ iPhone , iPod Touch และ iPad
+1. ทำการดาวน์โหลดและติดตั้งแอพ Google Authenticator ฟรี ผ่านทาง Play Store สำหรับ Android , App Store  สำหรับ iPhone , iPod Touch และ iPad
 ![pic2](/Pictures/Google-Auth/Phone-11.jpg)
 2. เมื่อติดตั้งเสร็จแล้ว ให้ทำการเปิดแอพ Google Authenticator นี้ และกดที่ปุ่ม "+" ทางด้านล่างมุมซ้ายของจอ
 ![pic2](/Pictures/Google-Auth/Phone-3.jpg)
@@ -52,4 +52,11 @@
 ![pic2](/Pictures/Google-Auth/2-step-12.png)
 7. ถ้าหาก code ที่ได้ถูกต้อง จะปรากฏหน้าต่าง "Done!" ซึ่งเป็นการติดตั้งที่เสร็จเรียบร้อยแล้ว
 ![pic2](/Pictures/Google-Auth/2-step-13.png)
+8. และสุดท้าย ในหน้าจอแอพพลิเคชันในมือถือนั้น ก็จะแสดง gmail account ที่ทำการเพิ่มเข้าไปใหม่แสดงขึ้นมา
+![pic2](/Pictures/Google-Auth/Phone-12.jpg)
+
+
+# สรุป
+การนำ Google Authenticator ไปใช้งานนั้น สามารถนำไปใช้ในการทำ 2-step verification กับเว็บอื่น ๆ ก็ได้ เช่น Facebook เป็นต้น ซึ่งการนำไปใช้งานนั้นจะเมื่อทำการ login เข้าระบบ ซึ่งจะต้องใช้ code ทั้ง 6 หลัก จากแอพในการ login ด้วย และตัวเลข code นั้นจะเปลี่ยนทุกๆ 30 วินาที ซึ่งเป็นการเพิ่มความปลอดภัยให้ระบบ account ของเรา
+
 
