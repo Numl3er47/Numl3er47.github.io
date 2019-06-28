@@ -26,6 +26,7 @@
 4. จะแสดงความคำสัญของการทำ "2-Step Verification" ให้เราอ่าน แล้วจึงกดที่ปุ่ม "GET STARTED"
 ![pic2](/Pictures/Google-Auth/2-step-2.png)
 5. ระบบจะให้ใส่รหัสผ่านอีกครั้งเพื่อทำการตั้งค่า
+
 ![pic2](/Pictures/Google-Auth/2-step-3.png)
 6.  ใส่หมายเลขโทรศัพท์ของเราแล้วคลิก "Next" เพื่อรับรหัสจาก sms แล้วนำรหัส 6 ตัวที่ได้จาก sms มากรอกลงในแบบฟอร์มแล้วคลิก "Next" 
 ![pic2](/Pictures/Google-Auth/2-step-11.png)
