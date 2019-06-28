@@ -4,15 +4,15 @@
    ถึงแม้ Google จะมีระบบรักษาความปลอดภัยช่วยป้องกันคนอื่นมาแฮกบัญชีอยู่บ้าง เช่น แจ้งเตือนในกรณีมีการล็อกอินจากสถานที่แปลกๆ ที่ไม่คุ้นเคยแต่เพื่อความปลอดภัยเพิ่มมากขึ้น วิธีที่เหมาะสมกว่าคือการเปิดใช้ระบบล็อกอินสองชั้น **(2-Step Verification)** แบบเดียวกับบริการธนาคารออนไลน์ที่ต้องยืนยันตัวตนด้วยรหัสผ่านและ OTP โดยการสมัครใช้งาน Gmail หรือ Google Account นั้นไม่ใช่เรื่องยากซึ่งมีขั้นตอนการสมัครดังนี้
 
 1. เปิด Web browser แล้ว เข้าไปที่ Gmail.com จากนั้นคลิ๊กที่ปุ่ม “Create an account” เพื่อทำการสมัคร gmail
-![pic1|512x397, 20%](/Pictures/Google-Auth/1.png)
+![pic1](/Pictures/Google-Auth/1.png)
 2. จากนั้นกรอกข้อมูลสำหรับการสมัครลงไปในแบบฟอร์มที่กำหนดไว้ แล้วกดที่ปุ่ม Next
 ![pic1](/Pictures/Google-Auth/2.png) ![pic1](/Pictures/Google-Auth/3.png)
 3. ขั้นตอนสุดท้ายจะมีขั้นตกลงในการใช้งานให้เราอ่าน เมื่ออ่านเสร็จแล้วให้กดที่ปุ่ม I agree เพื่อเปิดใช้งาน gmail
-![pic1](/Pictures/Google-Auth/4.png) ![pic1](/Pictures/Google-Auth/5.png)
+![pic1](/Pictures/Google-Auth/4.png) 
 4. ทำการ login เข้าสู่ระบบ gmail โดยใช้ username และ password ที่ได้กำหนดไว้ในตอนสมัคร
-![pic1](/Pictures/Google-Auth/6.png) ![pic1](/Pictures/Google-Auth/7.png)
+![pic1](/Pictures/Google-Auth/5.png) ![pic1](/Pictures/Google-Auth/6.png) 
 5. ระบบจะให้ทำการกรอกข้อมูลเบอร์โทรศัพท์เพื่อใช้ในการรับ Verify code แล้วนำ code ที่ได้นั้นมากรอกในช่อง Enter code แล้วจะสามารถเปิดใช้งาน gmail ได้
-![pic1](/Pictures/Google-Auth/8.png)
+![pic1](/Pictures/Google-Auth/7.png) ![pic1](/Pictures/Google-Auth/8.png)
 
 
 ## การเปิดใช้งาน 2-factor Authentication ใน gmail
