@@ -12,6 +12,7 @@
 4. ทำการ login เข้าสู่ระบบ gmail โดยใช้ username และ password ที่ได้กำหนดไว้ในตอนสมัคร
 ![pic1](/Pictures/Google-Auth/5.png)
 5. ระบบจะให้ทำการกรอกข้อมูลเบอร์โทรศัพท์เพื่อใช้ในการรับ Verify code แล้วนำ code ที่ได้นั้นมากรอกในช่อง Enter code แล้วจะสามารถเปิดใช้งาน gmail ได้
+
 ![pic1](/Pictures/Google-Auth/7.png) ![pic1](/Pictures/Google-Auth/8.png)
 
 
