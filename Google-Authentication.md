@@ -41,8 +41,10 @@
 1. ทำการดาวน์โหลดและติดตั้งแอพ Google Authenticator ฟรี ผ่านทาง Play Store สำหรับ Android , App Store  สำหรับ iPhone , iPod Touch และ iPad
 ![pic2](/Pictures/Google-Auth/Phone-11.jpg)
 2. เมื่อติดตั้งเสร็จแล้ว ให้ทำการเปิดแอพ Google Authenticator นี้ และกดที่ปุ่ม "+" ทางด้านล่างมุมซ้ายของจอ
+
 ![pic2](/Pictures/Google-Auth/Phone-3.jpg)
 3. สามารถเลือกการเพิ่มข้อมูลโดยผ่าน barcode หรือในรูปแบบของ key
+
 ![pic2](/Pictures/Google-Auth/Phone-4.jpg)
 4. ในการใช้งานร่วมกับ gmail นั้น ในส่วนของ gmail จะต้องเข้าไปที่แท็บ "security" แล้วเลือกเมนู "2-Step Verification" แล้วเลือกที่ "Authenticator app" 
 ![pic2](/Pictures/Google-Auth/2-step-7.png)
